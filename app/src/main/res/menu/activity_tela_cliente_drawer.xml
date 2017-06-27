@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aluga_sala"
+            android:icon="@drawable/alugar"
+            android:title="Alugar Sala" />
+        <item
+            android:id="@+id/pesquisar"
+            android:icon="@drawable/lulpa"
+            android:title="Pesquisar" />
+        <item
+            android:id="@+id/editar"
+            android:icon="@drawable/editar"
+            android:title="Editar" />
+
+    </group>
+
+
+
+</menu>

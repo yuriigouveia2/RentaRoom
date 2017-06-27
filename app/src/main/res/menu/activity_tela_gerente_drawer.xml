@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aluga_sala_gerente"
+            android:icon="@drawable/alugar"
+            android:title="Alugar Sala" />
+        <item
+            android:id="@+id/pesquisar_gerente"
+            android:icon="@drawable/lulpa"
+            android:title="Pesquisar" />
+        <item
+            android:id="@+id/editar_gerente"
+            android:icon="@drawable/editar"
+            android:title="Editar" />
+
+        <item
+            android:id="@+id/registrar"
+            android:icon="@drawable/registrar"
+            android:title="Registrar" />
+    </group>
+
+</menu>

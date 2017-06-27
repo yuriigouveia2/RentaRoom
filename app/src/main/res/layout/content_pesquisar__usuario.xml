@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download">
+
+    android:layout_marginBottom = "280dp"
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/pesquisarTextID"
+        android:hint="ID da Sala para pesquisar"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/radioGroupID"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:textColorHint="#dddddd"/>
+
+    <Button
+        android:text="Pesquisar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesquisarButtonID"
+        android:onClick="btPesquisar"
+        android:elevation="0dp"
+        android:layout_below="@+id/pesquisarTextID"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:backgroundTint="@android:color/background_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pesquisarTextID"
+        android:layout_toLeftOf="@+id/pesquisarTextID"
+        android:layout_toStartOf="@+id/pesquisarTextID"
+        android:layout_marginTop="133dp"
+        android:id="@+id/label1"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/label3"
+        android:layout_below="@+id/label2"
+        android:layout_alignLeft="@+id/label2"
+        android:layout_alignStart="@+id/label2"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/label2"
+        android:layout_below="@+id/label1"
+        android:layout_alignLeft="@+id/label1"
+        android:layout_alignStart="@+id/label1"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label3"
+        android:layout_alignLeft="@+id/label3"
+        android:layout_alignStart="@+id/label3"
+        android:layout_marginTop="27dp"
+        android:id="@+id/label4"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label2"
+        android:layout_alignRight="@+id/label_a1"
+        android:layout_alignEnd="@+id/label_a1"
+        android:id="@+id/label_a2"
+        android:layout_alignLeft="@+id/label_a1"
+        android:layout_alignStart="@+id/label_a1"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label4"
+        android:layout_alignRight="@+id/label_a2"
+        android:layout_alignEnd="@+id/label_a2"
+        android:id="@+id/label_a3"
+        android:layout_alignLeft="@+id/label_a2"
+        android:layout_alignStart="@+id/label_a2"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+    //label_a4
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label4"
+        android:layout_alignLeft="@+id/label_a3"
+        android:layout_alignStart="@+id/label_a3"
+        android:id="@+id/label_a4"
+        android:layout_alignRight="@+id/label_a3"
+        android:layout_alignEnd="@+id/label_a3"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_a1"
+        android:layout_alignBaseline="@+id/label1"
+        android:layout_alignBottom="@+id/label1"
+        android:layout_alignLeft="@+id/pesquisarButtonID"
+        android:layout_alignStart="@+id/pesquisarButtonID"
+        android:layout_alignRight="@+id/pesquisarTextID"
+        android:layout_alignEnd="@+id/pesquisarTextID"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label4"
+        android:layout_alignStart="@+id/label4"
+        android:layout_marginTop="477dp"
+        android:id="@+id/label5"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+    //labela_4
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/label5"
+        android:layout_alignRight="@+id/label_a4"
+        android:layout_alignEnd="@+id/label_a4"
+        android:id="@+id/label_a5"
+        android:layout_alignLeft="@+id/label_a4"
+        android:layout_alignStart="@+id/label_a4"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label6"
+        android:layout_alignTop="@+id/label5"
+        android:layout_marginTop="37dp"
+        android:layout_alignLeft="@+id/label5"
+        android:layout_alignStart="@+id/label5"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label6"
+        android:layout_alignLeft="@+id/label_a5"
+        android:layout_alignStart="@+id/label_a5"
+        android:id="@+id/label_a6"
+        android:layout_alignRight="@+id/label_a5"
+        android:layout_alignEnd="@+id/label_a5"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupID"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    </RadioGroup>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RentaRoom</string>
+    <string name="title_activity_tela_cliente">TelaCliente</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_gerente">TelaGerente</string>
+    <string name="logar">Logar</string>
+    <string name="aluga">Salas Disponíveis</string>
+    <string name="registrarCentro">Registrar Centro</string>
+    <string name="registrarSala">Registrar Sala</string>
+    <string name="registrar_departamento">Registrar Departamento</string>
+    <string name="situacao">Situação atual das Salas</string>
+</resources>

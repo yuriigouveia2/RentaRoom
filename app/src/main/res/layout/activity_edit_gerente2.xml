@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/download">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="52dp"
+        android:id="@+id/group_botao_editar"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:text="Usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_usuario_editar"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Sala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_sala_editar" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="ID da Sala ou do Usuario"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/busca_texto_editar"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:text="Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_editar_editar"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffffff"
+        android:background="@android:color/background_dark" />
+
+</LinearLayout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_registrar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.felipe.rentearoom11.Registrar_usuario"
+        android:background="@drawable/download">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Nome: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nomeUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/nomeUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="CPF: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/cpfUsuarioTextID"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/cpfUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="E-mail: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailUsuarioTextID"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Telefone: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/telefoneUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:id="@+id/telefoneUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="ID (Matrícula): "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/idUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Departamento: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/departamentoUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/departamentoUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Login: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/loginUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Senha: "
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/senhaUsuarioTextID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/senhaUsuarioEditID"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroupUsuarioID"
+                android:checkedButton="@+id/nome"
+                android:orientation="horizontal"
+                android:layout_below="@+id/idUsuarioEditID"
+                android:layout_marginTop="30dp">
+
+                <RadioButton
+                    android:text="Professor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/professorID"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:text="Funcionário"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/funcionarioID"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:text="Aluno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/alunoID"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#ffffff"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="Registrar"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:id="@+id/finalizarUID"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:background="@android:color/background_dark" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
